@@ -27,7 +27,7 @@ export function Header() {
               <a href="#TVprogram">Programa de TV</a>
             </li>
             <li>
-              <a href="#GamesProgram">Games Program</a>
+              <a href="#GamesProgram">Jogos</a>
             </li>
           </ul>
         </nav>
@@ -45,7 +45,7 @@ export function Header() {
                 <a href="#TVprogram">Programa de TV</a>
               </li>
               <li>
-                <a href="#GamesProgram">Games Program</a>
+                <a href="#GamesProgram">Jogos</a>
               </li>
             </ul>
           </nav>

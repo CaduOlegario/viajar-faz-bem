@@ -4,7 +4,15 @@ import imageBanner from "../../assets/banner.jpg";
 export const Container = styled.section`
   background: url(${imageBanner});
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   height: calc(100vh - 105px);
+
+  @media (max-width: 768px) {
+    background-size: cover;
+    background-position: center;
+    background-attachment: initial;
+  }
 `;
 
 export const Content = styled.div`
@@ -13,6 +21,7 @@ export const Content = styled.div`
   position: relative;
   top: 185px;
   left: 100px;
+
   @media (max-width: 768px) {
     top: 245px;
   }

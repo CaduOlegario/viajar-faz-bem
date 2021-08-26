@@ -8,6 +8,7 @@ export const Container = styled.section`
 
   h2 {
     font-family: "Oswald";
+    text-transform: uppercase;
     font-size: 3.875rem;
     color: var(--black);
     width: 100%;

@@ -1,32 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin: 0 100px 40px 100px;
+  /* margin: 0 100px 40px 100px;
   @media (max-width: 768px) {
     margin: 0 0 40px 70px;
-  }
+  } */
 
-  .carrousel-arrows {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-
-    button {
-      border: 3px solid var(--white);
-      width: 40px;
-      height: 40px;
-      background: transparent;
-      & + button {
-        margin-left: 10px;
-      }
-
-      svg {
-        color: var(--white);
-        font-size: 22px;
-      }
-    }
-  }
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto 40px auto;
+  padding: 0 1rem;
 `;
 
 export const ContentCharacters = styled.div`

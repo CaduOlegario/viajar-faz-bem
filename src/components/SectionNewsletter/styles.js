@@ -98,6 +98,8 @@ export const Content = styled.div`
         @media (max-width: 768px) {
           width: 80px;
           height: 50px;
+
+          margin-bottom: 70px;
         }
       }
     }

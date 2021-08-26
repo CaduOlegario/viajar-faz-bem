@@ -24,8 +24,27 @@ export default createGlobalStyle`
     @media (max-width: 1080px) {
       font-size: 93.75%;
     }
+
     @media (max-width: 720px) {
       font-size: 87.5%;
+    }
+
+    ::-webkit-scrollbar {
+      width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 1px var(--gray-200); 
+      border-radius: 7px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: var(--red); 
+      border-radius: 7px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--red); 
     }
   }
   body {

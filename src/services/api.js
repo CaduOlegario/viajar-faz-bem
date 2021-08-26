@@ -11,12 +11,3 @@ const hash = md5(time + privateKey + publicKey);
 export const api = axios.create({
   baseURL: `https://gateway.marvel.com/v1/public/characters?ts=${time}&apikey=${publicKey}&hash=${hash}`,
 });
-
-// useEffect(() => {
-//   axios
-//     .get(
-//       `https://gateway.marvel.com/v1/public/characters?ts=${time}&apikey=${publicKey}&hash=${hash}`
-//     )
-//     .then((response) => console.log(response))
-//     .catch((error) => console.error(error));
-// }, []);
